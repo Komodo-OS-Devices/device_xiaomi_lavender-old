@@ -27,10 +27,7 @@ PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE=lavender \
-    PRODUCT_NAME=lavender \
-    PRIVATE_BUILD_DESC="lavender-user 9 PKQ1.180904.001 V11.0.5.0.PFGMIXM release-keys"
-
-BUILD_FINGERPRINT := "google/coral/coral:10/QQ2A.200501.001.B2/6352890:user/release-keys"
+    PRODUCT_NAME=lavender
 
 DU_BUILD_TYPE := OFFICIAL
 
