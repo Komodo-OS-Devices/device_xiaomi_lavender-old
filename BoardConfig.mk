@@ -182,6 +182,9 @@ BOARD_VNDK_VERSION := current
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_lavender
 TARGET_RECOVERY_DEVICE_MODULES := libinit_lavender
 
+# Thermal
+USE_DEVICE_SPECIFIC_THERMAL := true
+
 # Wifi
 BOARD_HAS_QCOM_WLAN := true
 BOARD_WLAN_DEVICE := qcwcn
