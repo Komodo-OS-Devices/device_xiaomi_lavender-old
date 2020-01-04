@@ -35,6 +35,10 @@ on boot
     write /dev/cpuset/background/cpus 0-7
     write /dev/cpuset/system-background/cpus 0-7
 
+    # Set Idle state
+    chown system graphics /sys/class/graphics/fb0/idle_state
+    chmod 0444 /sys/class/graphics/fb0/idle_state
+
 on post-fs
     # Set RLIMIT_MEMLOCK to 64MB
     setrlimit 8 67108864 67108864
