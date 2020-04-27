@@ -17,7 +17,8 @@
 #define ATRACE_TAG (ATRACE_TAG_POWER | ATRACE_TAG_HAL)
 #define LOG_TAG "android.hardware.power@1.3-service.pixel-libperfmgr"
 
-#define TAP_TO_WAKE_NODE "/proc/touchpanel/double_tap_enable"
+#define TAP_TO_WAKE_NODE "/sys/touchpanel/double_tap"
+#define TAP_TO_WAKE_NODE2 "/proc/tp_gesture"
 
 #include <android-base/file.h>
 #include <android-base/properties.h>
@@ -197,6 +198,7 @@ Return<void> Power::setFeature(Feature feature, bool activate) {
     switch (feature) {
         case Feature::POWER_FEATURE_DOUBLE_TAP_TO_WAKE:
             ::android::base::WriteStringToFile(activate ? "1" : "0", TAP_TO_WAKE_NODE, true);
+            ::android::base::WriteStringToFile(activate ? "1" : "0", TAP_TO_WAKE_NODE2, true);
             break;
         default:
             break;
