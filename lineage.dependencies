@@ -1,0 +1,8 @@
+[
+  {
+    "remote": "github",
+    "repository": "alanndz/vendor_xiaomi_lavender",
+    "target_path": "vendor/xiaomi/lavender",
+    "branch": "lineage-17.1"
+  }
+]
