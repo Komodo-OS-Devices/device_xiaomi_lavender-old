@@ -420,7 +420,7 @@ PRODUCT_PACKAGES += \
 
 # Thermal HAL config
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/thermal_info_config.json:$(TARGET_COPY_OUT_VENDOR)/etc/thermal_info_config.json \
+    $(LOCAL_PATH)/configs/thermal_info_config.json:$(TARGET_COPY_OUT_VENDOR)/etc/thermal_info_config.json
 
 # USB
 PRODUCT_PACKAGES += \
