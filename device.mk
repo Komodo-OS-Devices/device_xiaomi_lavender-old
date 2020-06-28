@@ -416,7 +416,7 @@ PRODUCT_BOOT_JARS += \
 
 # Thermal HAL
 PRODUCT_PACKAGES += \
-    android.hardware.thermal@2.0-service.dipper
+    android.hardware.thermal@2.0-service.lavender
 
 # Thermal HAL config
 PRODUCT_COPY_FILES += \
