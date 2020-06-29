@@ -100,7 +100,7 @@
                 "NAN",
                 "NAN",
                 "NAN",
-                44.0
+                45.0
             ],
             "VrThreshold":"NAN",
             "Multiplier":0.001
@@ -164,12 +164,16 @@
             "Type":"CPU"
         },
         {
-            "Name":"thermal-devfreq-0",
-            "Type":"GPU"
+            "Name":"thermal-cpufreq-0",
+            "Type":"BATTERY"
         },
         {
-            "Name":"battery",
-            "Type":"BATTERY"
+            "Name":"thermal-cpufreq-0",
+            "Type":"SKIN"
+        },
+        {
+            "Name":"thermal-cpufreq-1",
+            "Type":"SKIN"
         }
     ]
 }
