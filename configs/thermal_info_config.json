@@ -162,18 +162,6 @@
         {
             "Name":"thermal-cpufreq-1",
             "Type":"CPU"
-        },
-        {
-            "Name":"thermal-cpufreq-0",
-            "Type":"BATTERY"
-        },
-        {
-            "Name":"thermal-cpufreq-0",
-            "Type":"SKIN"
-        },
-        {
-            "Name":"thermal-cpufreq-1",
-            "Type":"SKIN"
         }
     ]
 }
