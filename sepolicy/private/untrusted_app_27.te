@@ -1,0 +1,6 @@
+allow untrusted_app_27 app_data_file:file { execute  execute_no_trans };
+allow untrusted_app_27 proc:file { read };
+allow untrusted_app_27 proc_qtaguid_stat:file { read };
+allow untrusted_app_27 proc_zoneinfo:file { read };
+allow untrusted_app_27 rootfs:dir { read };
+allow untrusted_app_27 sysfs_net:dir { search };

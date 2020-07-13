@@ -13,3 +13,14 @@ allow init adsprpcd_file:file mounton;
 set_prop(vendor_init, freq_prop)
 set_prop(vendor_init, fm_prop)
 set_prop(vendor_init, camera_prop)
+
+allow vendor_init bservice_prop:property_service { set };
+allow vendor_init camera_data_file:dir { setattr };
+allow vendor_init default_prop:file { read };
+allow vendor_init default_prop:property_service { set };
+allow vendor_init device:file { write };
+allow vendor_init device_config_runtime_native_prop:property_service { set };
+allow vendor_init overlay_prop:property_service { set };
+allow vendor_init power_prop:property_service { set };
+allow vendor_init qcom_ims_prop:property_service { set };
+allow vendor_init radio_prop:property_service { set };

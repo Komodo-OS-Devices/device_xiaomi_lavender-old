@@ -1,3 +1,4 @@
 allow hal_camera_default sysfs_kgsl:file r_file_perms;
 set_prop(hal_camera_default, camera_prop)
 get_prop(hal_camera_default, camera_ro_prop)
+allow hal_camera_default diag_device:chr_file { read };
