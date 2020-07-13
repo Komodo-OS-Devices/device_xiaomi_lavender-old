@@ -5,6 +5,7 @@ type public_adsprpcd_file, file_type;
 type sysfs_fingerprint, fs_type, sysfs_type;
 type thermal_data_file, file_type, data_file_type;
 type sysfs_msm_subsys, sysfs_type, fs_type;
+type debugfs_system_stats, debugfs_type, fs_type;
 
 # XiaomiParts
 type kcal_dev, sysfs_type, fs_type;

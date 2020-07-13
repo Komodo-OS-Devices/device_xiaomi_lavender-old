@@ -43,7 +43,9 @@
 
 # Power HAL
 /(vendor|system/vendor)/bin/hw/android\.hardware\.power@1\.3-service\.pixel-libperfmgr                 u:object_r:hal_power_default_exec:s0
-
+/sys/kernel/debug/system_stats                                u:object_r:debugfs_system_stats:s0
+/sys/class/graphics/fb0/idle_state                            u:object_r:sysfs_graphics:s0
+ 
 # Thermal
 /data/vendor/thermal(/.*)?                      u:object_r:thermal_data_file:s0
 

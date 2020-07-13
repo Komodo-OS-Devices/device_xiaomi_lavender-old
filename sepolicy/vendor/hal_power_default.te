@@ -22,3 +22,8 @@ set_prop(hal_power_default, power_prop)
 
 # To dump
 allow hal_power_default cgroup:file read;
+
+allow hal_power_default sysfs_kgsl:lnk_file read;
+allow hal_power_default debugfs_system_stats:file { open read getattr };
+allow hal_power_default sysfs_graphics:file read;
+ 
