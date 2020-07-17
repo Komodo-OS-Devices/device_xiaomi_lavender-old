@@ -15,11 +15,11 @@ $(call inherit-product, device/xiaomi/lavender/device.mk)
 # Inherit dalvik from native
 $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common Komodo OS stuff.
+$(call inherit-product, vendor/komodo/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_lavender
+PRODUCT_NAME := komodo_lavender
 PRODUCT_DEVICE := lavender
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 7
@@ -30,5 +30,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=lavender
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
-
-BIANCA_OFFICIAL := true
