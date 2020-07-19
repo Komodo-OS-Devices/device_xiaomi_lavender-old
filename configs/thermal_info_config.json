@@ -5,7 +5,7 @@
             "Type":"CPU",
             "HotThreshold":[
                 "NAN",
-                "NAN",
+                65.0,
                 "NAN",
                 95.0,
                 "NAN",
@@ -20,7 +20,7 @@
             "Type":"CPU",
             "HotThreshold":[
                 "NAN",
-                "NAN",
+                65.0,
                 "NAN",
                 95.0,
                 "NAN",
@@ -35,7 +35,7 @@
             "Type":"CPU",
             "HotThreshold":[
                 "NAN",
-                "NAN",
+                65.0,
                 "NAN",
                 95.0,
                 "NAN",
@@ -50,7 +50,7 @@
             "Type":"CPU",
             "HotThreshold":[
                 "NAN",
-                "NAN",
+                65.0,
                 "NAN",
                 95.0,
                 "NAN",
@@ -65,7 +65,7 @@
             "Type":"CPU",
             "HotThreshold":[
                 "NAN",
-                "NAN",
+                65.0,
                 "NAN",
                 95.0,
                 "NAN",
@@ -80,7 +80,7 @@
             "Type":"GPU",
             "HotThreshold":[
                 "NAN",
-                "NAN",
+                65.0,
                 "NAN",
                 95.0,
                 "NAN",
@@ -97,40 +97,17 @@
                 "NAN",
                 "NAN",
                 "NAN",
-                "NAN",
-                "NAN",
-                "NAN",
-                45.0
-            ],
-            "VrThreshold":"NAN",
-            "Multiplier":0.001
-        },
-        {
-            "Name":"quiet_therm",
-            "Type":"SKIN",
-            "HotThreshold":[
-                "NAN",
-                39.0,
-                43.0,
                 45.0,
-                47.0,
-                51.0,
-                55.0
-            ],
-            "HotHysteresis":[
-                0.0,
-                1.9,
-                1.9,
-                1.9,
-                1.9,
-                1.9,
-                1.9
+                "NAN",
+                "NAN",
+                60.0
             ],
             "VrThreshold":"NAN",
-            "Multiplier":0.001
+            "Multiplier":0.001,
+            "Monitor":true
         },
         {
-            "Name":"pa_therm0",
+            "Name":"xo_therm",
             "Type":"SKIN",
             "HotThreshold":[
                 "NAN",
