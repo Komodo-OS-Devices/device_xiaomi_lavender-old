@@ -107,7 +107,7 @@
             "Monitor":true
         },
         {
-            "Name":"xo_therm",
+            "Name":"pa_therm0",
             "Type":"SKIN",
             "HotThreshold":[
                 "NAN",
