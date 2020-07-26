@@ -1,0 +1,13 @@
+[
+  {
+    "remote": "github",
+    "repository": "alanndz/kernel_xiaomi_lavender",
+    "target_path": "kernel/xiaomi/lavender",
+    "branch": "voivode"
+  },
+  {
+    "remote": "github",
+    "repository": "Komodo-OS-Devices/vendor_xiaomi",
+    "target_path": "vendor/xiaomi"
+  }
+]
